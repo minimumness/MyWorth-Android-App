@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="2"
+    android:layout_marginTop="10dp"
+    android:columnCount="2"
+    android:gravity="center|top"
+    android:numColumns="2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+<!--Button & TextView for Equities -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:onClick="DisplayEquities"
+        android:text="@string/Equities_Button" />
+
+    <TextView
+        android:id="@+id/MainEquitiesTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:text="TextView" />
+
+<!--Button & TextView for Current Account -->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:onClick="DisplayCurrentAccounts"
+        android:text="@string/Current_Account_Button" />
+
+    <TextView
+        android:id="@+id/MainCATotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:text="TextView" />
+
+<!--Button & TextView for Fixed Deposit -->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:onClick="DisplayFixedDeposits"
+        android:text="@string/Fixed_Deposit_Button" />
+
+    <TextView
+        android:id="@+id/MainFDTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text="TextView" />
+
+<!--Button & TextView for Bonds -->
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:onClick="DisplayBonds"
+        android:text="@string/Bonds_Button" />
+
+    <TextView
+        android:id="@+id/MainBondsTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:text="TextView" />
+    
+
+</GridLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MyWorth</string>
+
+    <!--Button text values in main.xml -->
+    <string name="Equities_Button">Equities</string>
+    <string name="Current_Account_Button">Current Accounts</string>
+    <string name="Fixed_Deposit_Button">Fixed Deposits</string>
+    <string name="Bonds_Button">Bonds</string>
+
+    <string name="addBond">Add Bond</string>
+    <string name="addCurrentAccount">Add Current Account</string>
+
+    <string name="error_submit">Please fill in all fields</string>
+
+    <string name="success_submit_CA">Current Account successfully added</string>
+    <string name="success_submit_Bonds">Bonds successfully added</string>
+    <string name="addEquity">Add Equity</string>
+
+    <string-array name="currency_array">
+        <item>AUD</item>
+        <item>BAHT</item>
+        <item>GBP</item>
+        <item>RM</item>
+        <item>SGD</item>
+        <item>USD</item>
+        <item>YUAN</item>
+        <item>YEN</item>
+    </string-array>
+
+    <string-array name="bond_type_array">
+        <item>Annual</item>
+        <item>Semi-annual</item>
+    </string-array>
+
+    <item name="Number_edit_text" type="id"/>
+    <item name="Price_edit_text" type="id"/>
+    <item name="BoughtOn_edit_text" type="id"/>
+
+</resources>

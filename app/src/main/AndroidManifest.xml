@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hsport.myworth">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--By Declaring the parent of these activities, the up navigation button is automatically added in the action bar-->
+        <activity android:name=".Equities"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/Equities_Button">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".CurrentAccounts"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/Current_Account_Button">
+        <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".FixedDeposits"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/Fixed_Deposit_Button">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".Bonds"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/Bonds_Button">
+        <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity" />
+        </activity>
+    </application>
+
+
+</manifest>
